@@ -5,7 +5,7 @@
   notify: daemon_reload 
 
 - name: start the service
-  ansible.builtin.server:
+  ansible.builtin.service:
     name: "{{ component }}"  
     state: restarted
     enabled: yes
