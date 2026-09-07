@@ -12,9 +12,9 @@
     - redis
     - mysql
     # - rabbitmq
-    # - catalogue
-    # - user
-    # - cart
+    - catalogue
+     - user
+    - cart
     # - shipping
     # - payment
     # - frontend
