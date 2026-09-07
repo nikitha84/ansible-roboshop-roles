@@ -8,12 +8,12 @@
     domain_name: "nikitha.fun"
     env: dev
     instances:
-    - mongodb
-    - redis
-    - mysql
+    # - mongodb
+    # - redis
+    # - mysql
     # - rabbitmq
     - catalogue
-     - user
+    - user
     - cart
     # - shipping
     # - payment
