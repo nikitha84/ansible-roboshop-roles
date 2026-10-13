@@ -1,5 +1,5 @@
-- name: "setup {{ component }} server"
-  hosts: "{{ component }}"
+- name: "setup {{ components }} server"
+  hosts: "{{ components }}"
   become: yes
   roles: # while executing ,ansible connected to mongodb server then calling roles & executing mongodb in roles
-  - "{{ component }}"
+  - "{{ components }}"

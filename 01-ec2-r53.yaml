@@ -11,14 +11,8 @@
     - mongodb
     - redis
     - mysql
-    - rabbitmq
-    # - catalogue
-    # - user
-    # - cart
-    # - shipping
-    # - payment
-    # - frontend
-    
+    - rabbirmq
+
   tasks:
   - name: create ec2 instance
     amazon.aws.ec2_instance:
